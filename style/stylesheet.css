@@ -52,7 +52,10 @@ body{
 }  
 
  @keyframes borderChange {
-  0%{border-left-color: rgb(138, 0, 0);}
-  50%{border-left-color: rgb(250, 118, 66);}
-  100%{border-left-color: rgb(41, 172, 2);}
+  0%{border-left-color: rgba(247, 28, 28, 0.507);}
+  20%{border-left-color: rgb(247, 28, 28);}
+  40%{border-left-color: rgba(250, 118, 66, 0.288);}
+  60%{border-left-color: rgb(250, 118, 66);}
+  80%{border-left-color: rgba(42, 172, 2, 0.308);}
+  100%{border-left-color: rgb(42, 172, 2);}
 }  
